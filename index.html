@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trello</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_title">
+            <a href="#">
+                <span></span>
+                <span>trello</span>
+            </a>
+        </div>
+        <div class="header_content">
+            <div class="header_content_space">
+                <div class="header_content_space_blocks">
+                    <span class="glyphicon glyphicon-th"></span>
+                </div>
+                <div class="header_content_space_blocks">
+                    <span>
+                        <i class="fa fa-home"></i>
+                    </span>
+                </div>
+                <div class="header_content_space_blocks header_content_space_blocks_board">
+                    <div class="header_content_space_blocks_cont">
+                        <span>
+                            <i class='fas fa-clipboard'></i>
+                        </span>
+                    </div>
+                    <div class="header_content_space_blocks_cont">
+                        <span>boards</span>
+                    </div>
+                </div>
+                <div class="header_content_space_blocks header_content_space_blocks_search">
+                    <input type="text">
+                    <i class='fas fa-search'></i>
+                </div>
+            </div>
+
+            <div class="header_content_space">
+                <div class="header_content_space_blocks">
+                    <span>
+                        <i class='fas fa-plus'></i>
+                    </span>
+                </div>
+                <div class="header_content_space_blocks">
+                    <span>
+                        <i class="fa fa-exclamation-circle"></i>
+                    </span>
+                </div>
+                <div class="header_content_space_blocks">
+                    <span>
+                        <i class='fas fa-bell'></i>
+                    </span>
+                </div>
+                <div class="header_content_space_self">
+                    <span>s</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <mine class="mine">
+        <div class="todo_column">
+
+            <div class="divToDo" draggable='true'>
+                <div class="divToDoHead">
+                    <div class="divToDoHead_cont">
+                        <span class="divToDoHead_span">To-do list</span>
+                        <input type="text" class="divToDoHead_inp" value="To-do list">
+                    </div>
+                    <div class="todoPanel">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="divToDoContent_all">
+                    <div class="divToDoContent" draggable='true'>
+                        <span class="divToDoContent_span">something</span>
+                        <div class="list_pancil">
+                            <i class='fas fa-pencil-alt'></i>
+                        </div>
+                        <textarea class="divToDoContent_text">something</textarea>
+                    </div>
+                </div>
+                <div class="divToDoCard">
+                    <div class="divToDoCard_add">
+                        <span class="divToDoCard_span">+ Add anothet card</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="divToDo" draggable='true'>
+                <div class="divToDoHead">
+                    <div class="divToDoHead_cont">
+                        <span class="divToDoHead_span">In the process</span>
+                        <input type="text" class="divToDoHead_inp" value="In the process">
+                    </div>
+                    <div class="todoPanel">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="divToDoContent_all">
+                    <div class="divToDoContent" draggable='true'>
+                        <span class="divToDoContent_span">something</span>
+                        <div class="list_pancil">
+                            <i class='fas fa-pencil-alt'></i>
+                        </div>
+                        <textarea class="divToDoContent_text">something</textarea>
+                    </div>
+                </div>
+                <div class="divToDoCard">
+                    <div class="divToDoCard_add">
+                        <span class="divToDoCard_span">+ Add anothet card</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="divToDo" draggable='true'>
+                <div class="divToDoHead">
+                    <div class="divToDoHead_cont">
+                        <span class="divToDoHead_span">Done</span>
+                        <input type="text" class="divToDoHead_inp" value="Done">
+                    </div>
+                    <div class="todoPanel">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="divToDoContent_all">
+                    <div class="divToDoContent" draggable='true'>
+                        <span class="divToDoContent_span">something</span>
+                        <div class="list_pancil">
+                            <i class='fas fa-pencil-alt'></i>
+                        </div>
+                        <textarea class="divToDoContent_text">something</textarea>
+                    </div>
+                </div>
+                <div class="divToDoCard">
+                    <div class="divToDoCard_add">
+                        <span class="divToDoCard_span">+ Add anothet card</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="todo_new">
+            <button class="todo_button_columns">+ Add another column</button>
+        </div>
+    </mine>
+
+    <script src="mine.js"></script>
+</body>
+
+</html>
